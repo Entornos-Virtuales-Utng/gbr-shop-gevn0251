@@ -11,6 +11,8 @@ export class RegisterComponent {
     "name": ['',[Validators.required]]
   });
 
+  /*
+  */
   constructor(private fb:FormBuilder) {
 
   }
