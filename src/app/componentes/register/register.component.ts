@@ -17,9 +17,7 @@ export class RegisterComponent {
 
   }
 
-  /*
-  Agregar un Pull Request
-  */
+
   get name() {
     return this.registerForma.controls["name"]
   }
