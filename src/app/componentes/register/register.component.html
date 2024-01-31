@@ -1,0 +1,13 @@
+<form [formGroup]="registerForma">
+  <p-card header="Registro" [style]="{width:'360px'}">
+    <div class="flex flex-column gap-2">
+      <label for="name">Nombre Completo</label>
+      <input
+        pInputText
+        id="name"
+        aria-describedby="name"
+        formControlName="name" />
+      <small id="name">Ingresar nombre completo</small>
+  </div>
+</p-card>
+</form>
